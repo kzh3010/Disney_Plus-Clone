@@ -11,6 +11,7 @@ const Nav = () => {
         setShow(false);
       }
     });
+
     return () => {
       window.removeEventListener("scroll", () => {});
     };
